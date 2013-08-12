@@ -16,7 +16,7 @@ void setup() {
 void loop() {
     counter++;
     Serial.print("Hello world "); // Write a string to the serial interface
-    Serial.pringln(counter); // Write a integer to the serial interface and end the line
+    Serial.println(counter); // Write a integer to the serial interface and end the line
     digitalWrite(led, counter % 2); // Toggle the led pin on every increase of counter
     delay(1000); // Delays for 1 second
 }
