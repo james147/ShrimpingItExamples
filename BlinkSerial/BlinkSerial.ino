@@ -10,7 +10,7 @@ int counter = 0;
 
 void setup() {
     pinMode(led, OUTPUT); // Sets the led pin to be an output pin
-    Serial.begin(9200); // Initialize the serial interface
+    Serial.begin(9600); // Initialize the serial interface
 }
 
 void loop() {
