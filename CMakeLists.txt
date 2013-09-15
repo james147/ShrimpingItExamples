@@ -24,6 +24,10 @@ generate_arduino_firmware(blink
     SKETCH "Blink"
 )
 
+generate_arduino_firmware(pwmblink
+    SKETCH "PWMBlink"
+)
+
 generate_arduino_firmware(blinkserial
     SKETCH "BlinkSerial"
 )
