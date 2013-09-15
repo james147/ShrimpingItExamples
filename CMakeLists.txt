@@ -36,6 +36,14 @@ generate_arduino_firmware(echo
     SKETCH "Echo"
 )
 
+generate_arduino_firmware(i2cmaster
+    SKETCH "I2CMaster"
+)
+
+generate_arduino_firmware(i2cslave
+    SKETCH "I2CSlave"
+)
+
 generate_arduino_firmware(arduinoisp
     SKETCH "${ARDUINO_SDK_PATH}/examples/ArduinoISP"
     PROGRAMMER "arduinoisp"
